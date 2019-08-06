@@ -1,0 +1,181 @@
+/** uNIVERSAL **/
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: -webkit-linear-gradient(to left, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #A1FFCE;  /* fallback for old browsers */
+}
+img {
+    box-shadow: 3px 5px 10px white;
+    height: auto;
+    width: 600px;
+}
+
+h1 {
+    margin-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: black underline;
+}
+
+/*** NAVIGATION ***/
+#navBar ul {
+    background-color: grey;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#navBar ul li {
+    color: white;
+    display: inline;
+    font-size: 20px;
+    padding-right: 120px;
+    padding-left: 150px;
+    margin-left: 0;
+    text-align: center;
+
+}
+
+#navBar ul li:hover {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    color: red;
+    font-size: 22px;
+}
+
+/** DO'S AND DON'TS **/
+
+#doAndDont {
+    border-top: 1px solid silver;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+#doAndDont img {
+    box-shadow: 3px 5px 10px white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+ #doAndDont p {
+    font-size: 25px;
+    float: right;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 105px;
+    text-align: left;
+    text-decoration: underline;
+    width: 650px;
+}
+
+/** RIPENESS INDICATOR **/
+
+#ripeIndicator{
+    border-top: 1px solid silver;;
+}
+
+#ripeIndicator img {
+    float: right;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-right: 80px;
+}
+
+#ripeIndicator h2 {
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+#ripeIndicator h3 {
+    padding-top: 35px;
+    text-align: center;
+}
+
+#ripeIndicator p {
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+/** Recipes **/
+
+#recipes {
+    border-top: 1px solid silver;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#recipes li {
+    line-height: 40px;
+    font-size: 18px; 
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#recipes h2 {
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+#recipes h6 {
+    font-size: 30px;
+    line-height: 4px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-decoration: white underline;
+
+}
+#cheesecakeAvoMousse {
+    padding-top: 50px;
+}
+
+
+/*** CONTACT US **/
+#contact{
+    border-top: 1px solid silver;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact h1 {
+    padding-top: 10px;
+}
+
+#contact h2{
+    text-transform: uppercase;
+}
+
+#contact img {
+ margin-top: 10px;
+}
+
+/** ABOUT US **/
+
+#aboutUs {
+    border-top: 1px solid silver;
+    margin-top: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#aboutUs h1 {
+    padding-top: 20px;
+}
+
+#aboutUs h2 {
+    text-transform: uppercase;
+}
+
+#aboutUs iframe {
+    margin-top: 10px;
+}
